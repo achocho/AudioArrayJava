@@ -8,8 +8,9 @@ Anomaly(int S)
 }
 
 
-public void anomaly(double[] arr) 
+public void anomaly(double[] arr1) 
 {
+	double[] arr=arr1;
 	double[] temp=new double[S];
 for(int i=0;i<arr.length;i++) 
 {

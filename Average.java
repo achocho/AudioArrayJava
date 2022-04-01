@@ -1,8 +1,9 @@
 package Audio;
 
 public class Average {
-double Avg(double[] arr) 
+double Avg(double[] arr1) 
 {
+	double[] arr=arr1;
 	int sum=0;
 	for(int i=0;i<arr.length;i++) 
 	{

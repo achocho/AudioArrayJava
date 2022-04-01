@@ -1,8 +1,9 @@
 package Audio;
 import java.util.*;
 public class Normalize {
-public double[] Normalized(double[] arr) 
+public double[] Normalized(double[] arr1) 
 {
+	double[] arr=arr1;
 	double Max=Integer.MIN_VALUE;
 	double Min=Integer.MAX_VALUE;
 for(int i=0;i<arr.length;i++) 

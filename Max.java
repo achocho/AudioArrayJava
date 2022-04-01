@@ -1,8 +1,9 @@
 package Audio;
 
 public class Max {
-double Max(double[] arr) 
+double Max(double[] arr1) 
 {
+	double[] arr=arr1;
 	double max=Integer.MIN_VALUE;
 	for(int i=0;i<arr.length;i++) 
 	{

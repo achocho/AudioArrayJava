@@ -2,14 +2,15 @@ package Audio;
 
 public class Denoise {
 int S;
-int M;
-Denoise(int S,int M)
+double M;
+Denoise(int S,double M)
 {
 	this.S=S;
 	this.M=M;
 }
-public void anomaly(double[] arr) 
+public void anomaly(double[] arr1) 
 {
+	double[] arr=arr1;
 	double[] temp=new double[S];
 for(int i=0;i<arr.length;i++) 
 {
