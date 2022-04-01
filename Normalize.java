@@ -1,9 +1,10 @@
 package Audio;
 import java.util.*;
 public class Normalize {
-public double[] Normalized(double[] arr1) 
+ double[] Normalized(double[] arr1) 
 {
-	double[] arr=arr1;
+	
+	double[] arr=arr1.clone();
 	double Max=Integer.MIN_VALUE;
 	double Min=Integer.MAX_VALUE;
 for(int i=0;i<arr.length;i++) 
@@ -21,6 +22,8 @@ for(int i=0;i<arr.length;i++)
 for(int i=0;i<arr.length;i++) {
 arr[i]=(double)2*(arr[i]-Min)/(Max-Min)-1;
 }
+
+
 	return arr;
 }
 }

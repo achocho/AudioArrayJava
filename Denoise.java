@@ -10,7 +10,7 @@ Denoise(int S,double M)
 }
 public void anomaly(double[] arr1) 
 {
-	double[] arr=arr1;
+	double[] arr=arr1.clone();
 	double[] temp=new double[S];
 for(int i=0;i<arr.length;i++) 
 {

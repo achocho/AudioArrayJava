@@ -14,9 +14,10 @@ public class Main {
      double[] normalized= nom.Normalized(arr);
      for(int i=0;i<normalized.length;i++) 
      {
-    	 System.out.println(normalized[i]);
-    	 
+    	 System.out.println(normalized[i]); 
      }
+ 
+     
      an.anomaly(arr);
       den.anomaly(arr);
       double Max=max.Max(arr);
